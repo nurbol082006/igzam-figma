@@ -1,0 +1,107 @@
+.container {
+  width: 1356px;
+  display: flex;
+  margin: 0 auto;
+  background-image: url(../img/bg\ with\ shoe\ edited\ in\ photoshop.png);
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+}
+
+body {
+  height: 680px;
+  margin-top: 150px;
+  margin-bottom: 90px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 1440px;
+  align-items: center;
+}
+.navbar__img {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  gap: 20px;
+}
+.navbar__link:hover {
+  color: red;
+}
+
+.jordan {
+  display: flex;
+  margin-left: 916px;
+  margin-top: 430px;
+  margin-bottom: 50px;
+}
+.jordan__span1 {
+  font-size: 36px;
+  color: #e70000;
+  font-weight: 800;
+}
+.jordan__span2 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.krossi {
+  width: 578px;
+  height: 80px;
+  align-items: center;
+}
+.krossi__img {
+  width: 130px;
+  height: 80px;
+}
+
+.btn {
+  width: 300px;
+  gap: 20px;
+}
+.btn__btn {
+  padding: 15px 9px;
+}
+.btn__btn:hover {
+  background-color: aquamarine;
+  border-radius: 10px;
+  color: white;
+}
+.btn__btn2 {
+  padding: 15px 9px;
+}
+.btn__btn2:hover {
+  background-color: beige;
+  border-radius: 10px;
+  color: blue;
+}
+
+.sect {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inspration__h3 {
+  color: #fff;
+  font-size: 14px;
+}
+.inspration__p {
+  color: white;
+  font-size: 13px;
+  opacity: 0.5;
+}/*# sourceMappingURL=main.css.map */
